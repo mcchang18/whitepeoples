@@ -1,0 +1,821 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MANIFEST DESTINY</title>
+<style type="text/css">
+
+#manifest {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  z-index: 1
+}
+
+#manifest img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+#App1 {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 2;
+	margin: auto;
+}
+
+#App2 {
+	position: absolute;
+	top: 300px;
+	left: 250px;
+	z-index: 5;
+	margin: auto;
+}
+
+#App3 {
+	position: absolute;
+	top: 50px;
+	left: 400px;
+	z-index: 4;
+}
+
+#App4 {
+	position: absolute;
+	top: 150px;
+	left: 600px;
+	z-index: 4;
+}
+
+#App5 {
+	position: absolute;
+	top: 200px;
+	left: 900px;
+	z-index: 6;
+}
+
+#App6 {
+	position: absolute;
+	top: 400px;
+	left: 1000px;
+	z-index: 7;
+}
+
+#App7 {
+	position: absolute;
+	top: 425px;
+	left: 600px;
+	z-index: 8;
+}
+
+#App8 {
+	position: absolute;
+	top: 500px;
+	left: 0px;
+	z-index: 8;
+}
+
+#App9 {
+	position: absolute;
+	top: 600px;
+	left: 300px;
+	z-index: 9;
+}
+
+#App10 {
+	position: absolute;
+	top: 650px;
+	left: 700px;
+	z-index: 8;
+}
+
+#App11 {
+	position: absolute;
+	top: 50px;
+	left: 1150px;
+	z-index: 8;
+}
+
+#App12 {
+	position: absolute;
+	top: 0px;
+	left: 700px;
+	z-index: 8;
+}
+
+#App13 {
+	position: absolute;
+	top: 0px;
+	left: 850px;
+	z-index: 8;
+}
+
+#App14 {
+	position: absolute;
+	top: 0px;
+	left: 1400px;
+	z-index: 8;
+}
+
+#App15 {
+	position: absolute;
+	top: 700px;
+	left: 1400px;
+	z-index: 9;
+}
+
+#App16 {
+	position: absolute;
+	top: 650px;
+	left: 1500px;
+	z-index: 9;
+}
+
+#App17 {
+	position: absolute;
+	top: 300px;
+	left: 1600px;
+	z-index: 9;
+}
+
+#App18 {
+	position: absolute;
+	top: 1000px;
+	left: 1600px;
+	z-index: 10;
+}
+
+#App19 {
+	position: absolute;
+	top: 950px;
+	left: 1100px;
+	z-index: 11;
+}
+
+#App20 {
+	position: absolute;
+	top: 950px;
+	left: 800px;
+	z-index: 11;
+}
+
+#App21 {
+	position: absolute;
+	top: 1200px;
+	left: 600px;
+	z-index: 12;
+}
+
+#App22 {
+	position: absolute;
+	top: 1000px;
+	left: 400px;
+	z-index: 12;
+}
+
+#App23 {
+	position: absolute;
+	top: 1300px;
+	left: 100px;
+	z-index: 12;
+}
+
+#App24 {
+	position: absolute;
+	top: 1300px;
+	left: 1400px;
+	z-index: 12;
+}
+
+#App25 {
+	position: absolute;
+	top: 800px;
+	left: 0px;
+	z-index: 12;
+}
+
+#App26 {
+	position: absolute;
+	top: 1600px;
+	left: 1500px;
+	z-index: 13;
+}
+
+#App27 {
+	position: absolute;
+	top: 1600px;
+	left: 1000px;
+	z-index: 13;
+}
+
+#App28 {
+	position: absolute;
+	top: 1650px;
+	left: 400px;
+	z-index: 13;
+}
+
+#Twit1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 14;
+}
+
+#Twit2 {
+	position: absolute;
+	top: 0px;
+	left: 500px;
+	z-index: 14;
+}
+
+#Twit3 {
+	position: absolute;
+	top: 0px;
+	left: 1000px;
+	z-index: 14;
+}
+
+#Twit4 {
+	position: absolute;
+	top: 250px;
+	left: 1000px;
+	z-index: 14;
+}
+
+#Twit5 {
+	position: absolute;
+	top: 450px;
+	left: 1000px;
+	z-index: 14;
+}
+
+#Twit6 {
+	position: absolute;
+	top: 600px;
+	left: 1000px;
+	z-index: 14;
+}
+
+#Twit7 {
+	position: absolute;
+	top: 600px;
+	left: 0px;
+	z-index: 14;
+}
+
+#Twit8 {
+	position: absolute;
+	top: 300px;
+	left: 0px;
+	z-index: 14;
+}
+
+#Twit9 {
+	position: absolute;
+	top: 800px;
+	left: 0px;
+	z-index: 14;
+}
+
+#Twit10 {
+	position: absolute;
+	top: 800px;
+	left: 0px;
+	z-index: 14;
+}
+
+#Twit11 {
+	position: absolute;
+	top: 1000px;
+	left: 0px;
+	z-index: 14;
+}
+
+#Twit12 {
+	position: absolute;
+	top: 1100px;
+	left: 0px;
+	z-index: 14;
+}
+
+#Twit13 {
+	position: absolute;
+	top: 1100px;
+	left: 500px;
+	z-index: 14;
+}
+
+#Twit14 {
+	position: absolute;
+	top: 1100px;
+	left: 1000px;
+	z-index: 14;
+}
+
+#Twit15 {
+	position: absolute;
+	top: 1100px;
+	left: 1300px;
+	z-index: 15;
+}
+
+#Twit16 {
+	position: absolute;
+	top: 1100px;
+	left: 1500px;
+	z-index: 15;
+}
+
+#Twit17 {
+	position: absolute;
+	top: 1400px;
+	left: 1500px;
+	z-index: 15;
+}
+
+#Twit18 {
+	position: absolute;
+	top: 1400px;
+	left: 1000px;
+	z-index: 15;
+}
+
+#Twit19 {
+	position: absolute;
+	top: 1300px;
+	left: 550px;
+	z-index: 15;
+}
+
+#Twit20 {
+	position: absolute;
+	top: 1400px;
+	left: 10px;
+	z-index: 15;
+}
+
+#Twit21 {
+	position: absolute;
+	top: 1600px;
+	left: 10px;
+	z-index: 15;
+}
+
+#Twit22 {
+	position: absolute;
+	top: 1600px;
+	left: 800px;
+	z-index: 15;
+}
+
+#Twit23 {
+	position: absolute;
+	top: 1600px;
+	left: 1600px;
+	z-index: 15;
+}
+
+#Twit24 {
+	position: absolute;
+	top: 1600px;
+	left: 1000px;
+	z-index: 15;
+}
+
+#Twit25 {
+	position: absolute;
+	top: 1000px;
+	left: 1000px;
+	z-index: 15;
+}
+
+#Twit26 {
+	position: absolute;
+	top: 800px;
+	left: 1000px;
+	z-index: 15;
+}
+
+#Twit27 {
+	position: absolute;
+	top: 0px;
+	left: 1000px;
+	z-index: 15;
+}
+
+#Twit28 {
+	position: absolute;
+	top: 500px;
+	left: 500px;
+	z-index: 15;
+}
+
+#Twit29 {
+	position: absolute;
+	top: 500px;
+	left: 1000px;
+	z-index: 15;
+}
+
+#Twit30 {
+	position: absolute;
+	top: 1000px;
+	left: 1100px;
+	z-index: 15;
+}
+
+#Safespace1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 16;
+}
+
+#Safespace2 {
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	z-index: 16;
+}
+#Safespace3 {
+	position: absolute;
+	top: 0px;
+	left: 400px;
+	z-index: 16;
+}
+
+#Safespace4 {
+	position: absolute;
+	top: 600px;
+	left: 500px;
+	z-index: 16;
+}
+
+#Safespace5 {
+	position: absolute;
+	top: 600px;
+	left: 0px;
+	z-index: 16;
+}
+
+#Safespace6 {
+	position: absolute;
+	top: 1100px;
+	left: 0px;
+	z-index: 16;
+}
+
+#Safespace7 {
+	position: absolute;
+	top: 1300px;
+	left: 900px;
+	z-index: 16;
+}
+
+#Safespace8 {
+	position: absolute;
+	top: 1300px;
+	left: 1200px;
+	z-index: 16;
+}
+
+#Safespace9 {
+	position: absolute;
+	top: 1200px;
+	left: 700px;
+	z-index: 16;
+}
+
+#Safespace10 {
+	position: absolute;
+	top: 0px;
+	left: 1500px;
+	z-index: 16;
+}
+
+#Safespace11 {
+	position: absolute;
+	top: 500px;
+	left: 1500px;
+	z-index: 16;
+}
+
+#Safespace12 {
+	position: absolute;
+	top: 1000px;
+	left: 1600px;
+	z-index: 16;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+
+<body>
+<div id="manifest">
+  <img src="Images/American_progress.JPG" alt=""/>
+</div>
+
+<div id="App1" onclick="this.style.display='none';">
+	<img src="Images/Cultural Appreciation/117.jpg" width="500" height="350" alt=""/>
+</div>
+
+<div id="App2" onclick="this.style.display='none';">
+	<img src="Images/Cultural Appreciation/12138376_913996388691841_5410879798325332926_o.jpg" width="514.6666" height="341" alt=""/>
+</div>
+
+<div id="App3" onclick="this.style.display='none';">
+  <img src="Images/Cultural Appreciation/254224_196562380479553_872520767_n.jpg" width="372.5" height="279.5" alt=""/>
+</div>
+
+<div id="App4" onclick="this.style.display='none';">
+	<img src="Images/Cultural Appreciation/2d72df90ca303436d58f9acbfd31c9ed.jpg" width="512" height="256" alt=""/>
+</div>
+
+<div id="App5" onclick="this.style.display='none';">
+	<img src="Images/Cultural Appreciation/3bfa69b952c9a-51-2.jpg" width="350" height="250" alt=""/>
+</div>
+
+<div id="App6" onclick="this.style.display='none';">
+	<img src="Images/Cultural Appreciation/3f22d6881562cac59f4883d331b44df8.jpg" width="700" height="350" alt=""/>
+</div>
+
+<div id="App7" onclick="this.style.display='none';">
+	<img src="Images/Cultural Appreciation/800px-Starring_Mickey_Rooney.jpg" width="400" height="225" alt=""/>
+</div>
+
+<div id="App8" onclick="this.style.display='none';">
+	<img src="Images/Cultural Appreciation/BBxqia1.jpg" width="450" height="270" alt=""/>
+</div>
+
+<div id="App9" onclick="this.style.display='none';">
+	<img src="Images/Cultural Appreciation/blackface.jpg" width="500" height="300" alt=""/>
+</div>
+
+<div id="App10" onclick="this.style.display='none';">
+	<img src="Images/Cultural Appreciation/cultural-appropriation-rectangle-1100x722.jpg" width="500" height="360" alt=""/>
+</div>
+	
+<div id="App11" onclick="this.style.display='none';">
+	<img src="Images/Cultural Appreciation/dec09readsshanghai.jpg.png" width="483" height="360" alt=""/>
+</div>
+
+<div id="App12" onclick="this.style.display='none';">
+  <img src="Images/Cultural Appreciation/download (1).jpeg" width="250" height="140" alt=""/>
+</div>
+
+<div id="App13" onclick="this.style.display='none';">
+	<img src="Images/Cultural Appreciation/download.jpeg" width="450" height="260" alt=""/>
+</div>
+
+<div id="App14" onclick="this.style.display='none';">
+	<img src="Images/Cultural Appreciation/enhanced-buzz-5399-1382908465-33.jpg" width="500" height="500" alt=""/>
+</div>
+
+<div id="App15" onclick="this.style.display='none';">
+	<img src="Images/Cultural Appreciation/hh1.jpg" width="469" height="290" alt=""/>
+</div>
+
+<div id="App16" onclick="this.style.display='none';">
+	<img src="Images/Cultural Appreciation/historycomic.jpg" width="700" height="200" alt=""/>
+</div>
+
+<div id="App17" onclick="this.style.display='none';">
+	<img src="Images/Cultural Appreciation/how-i-met-your-mother2.png" width="600" height="300" alt=""/>
+</div>
+
+<div id="App18" onclick="this.style.display='none';">
+	<img src="Images/Cultural Appreciation/imhonoringyou.jpg" width="555" height="431" alt=""/>
+</div>
+
+<div id="App19" onclick="this.style.display='none';">
+	<img src="Images/Cultural Appreciation/kendall-jenner-cornrows-epic-according-to-Marie-Claire-tweet.jpg" width="550" height="654" alt=""/>
+</div>
+
+<div id="App20" onclick="this.style.display='none';">
+	<img src="Images/Cultural Appreciation/la-me-ln-uci-fraternity-001.jpg" width="580" height="306" alt=""/>
+</div>
+
+<div id="App21" onclick="this.style.display='none';">
+	<img src="Images/Cultural Appreciation/m3wkiofre0ftrnmnupbo.png" width="500" height="520" alt=""/>
+</div>
+
+<div id="App22" onclick="this.style.display='none';">
+	<img src="Images/Cultural Appreciation/main_large-2-550x371.jpg" width="550" height="371" alt=""/>
+</div>
+
+<div id="App23" onclick="this.style.display='none';">
+	<img src="Images/Cultural Appreciation/Minstrel_PosterBillyVanWare_edit.jpg" width="550" height="480" alt=""/>
+</div>
+
+<div id="App24" onclick="this.style.display='none';">
+	<img src="Images/Cultural Appreciation/racist28n-1-web.jpg" width="307" height="409" alt=""/>
+</div>
+
+<div id="App25" onclick="this.style.display='none';">
+	<img src="Images/Cultural Appreciation/rs_560x415-131028153256-1024.ted-danson-blackface.ls.102813.jpg" width="560" height="415" alt=""/>
+</div>
+
+<div id="App26" onclick="this.style.display='none';">
+	<img src="Images/Cultural Appreciation/talons-of-weng-chiang_chang.jpg" width="640" height="480" alt=""/>
+</div>
+
+<div id="App27" onclick="this.style.display='none';">
+	<img src="Images/Cultural Appreciation/tumblr_inline_nsbkrakf941ruyk2j_500.png" width="500" height="282" alt=""/>
+</div>
+
+<div id="App28" onclick="this.style.display='none';">
+  <img src="Images/Cultural Appreciation/VG2pdWT.jpg" width="647" height="434" alt=""/>
+</div>
+
+<div id="Twit1" onclick="this.style.display='none';">
+  <img src="Images/twitter/Screen Shot 2016-01-26 at 4.19.21 PM.png" width="500" height="350" alt=""/>
+</div>
+
+<div id="Twit2" onclick="this.style.display='none';">
+  <img src="Images/twitter/Screen Shot 2016-01-26 at 4.24.33 PM.png" width="500" height="600" alt=""/>
+</div>
+
+<div id="Twit3" onclick="this.style.display='none';">
+  <img src="Images/twitter/Screen Shot 2016-01-26 at 6.20.44 PM.png" width="1116" height="262" alt=""/>
+</div>
+
+<div id="Twit4" onclick="this.style.display='none';">
+  <img src="Images/twitter/Screen Shot 2016-01-26 at 6.20.53 PM.png" width="1154" height="206" alt=""/>
+</div>
+
+<div id="Twit5" onclick="this.style.display='none';">
+  <img src="Images/twitter/Screen Shot 2016-01-26 at 6.22.31 PM.png" width="1148" height="152" alt=""/>
+</div>
+
+<div id="Twit6" onclick="this.style.display='none';">
+ <img src="Images/twitter/Screen Shot 2016-01-26 at 6.22.59 PM.png" width="1150" height="384" alt=""/>
+</div>
+
+<div id="Twit7" onclick="this.style.display='none';">
+ <img src="Images/twitter/Screen Shot 2016-01-26 at 6.23.52 PM.png" width="1148" height="194" alt=""/>
+</div>
+
+<div id="Twit8" onclick="this.style.display='none';">
+	<img src="Images/twitter/Screen Shot 2016-01-26 at 6.26.04 PM.png" width="400" height="400" alt=""/>
+</div>
+
+<div id="Twit9" onclick="this.style.display='none';">
+	<img src="Images/twitter/Screen Shot 2016-01-26 at 6.26.32 PM.png" width="300" height="200" alt=""/>
+</div>
+
+<div id="Twit10" onclick="this.style.display='none';">
+	<img src="Images/twitter/Screen Shot 2016-01-26 at 6.28.46 PM.png" width="1172" height="196" alt=""/>
+</div>
+
+<div id="Twit11" onclick="this.style.display='none';">
+	<img src="Images/twitter/Screen Shot 2016-01-26 at 6.28.57 PM.png" width="1166" height="188" alt=""/>
+</div>
+
+<div id="Twit12" onclick="this.style.display='none';">
+	<img src="Images/twitter/Screen Shot 2016-01-26 at 6.29.16 PM.png" width="500" height="300" alt=""/>
+</div>
+
+<div id="Twit13" onclick="this.style.display='none';">
+	<img src="Images/twitter/cumia21.jpg" width="502" height="210" alt=""/>
+</div>
+
+<div id="Twit14" onclick="this.style.display='none';">
+	<img src="Images/twitter/2B18098F00000578-0-image-a-44_1438701839273.jpg" width="306" height="225" alt=""/>
+</div>
+
+<div id="Twit15" onclick="this.style.display='none';">
+	<img src="Images/twitter/12118890_10153338552793547_1066238444392790671_n.jpg" width="200" height="400" alt=""/>
+</div>
+
+<div id="Twit16" onclick="this.style.display='none';">
+	<img src="Images/twitter/Scott-Walker-tweets1.jpg" width="660" height="368" alt=""/>
+</div>
+
+<div id="Twit17" onclick="this.style.display='none';">
+	<img src="Images/twitter/englishtoday.jpg" width="500" height="576" alt=""/>
+</div>
+
+<div id="Twit18" onclick="this.style.display='none';">
+	<img src="Images/twitter/tumblr_mv3dnghADF1qhp1u6o1_500.png" width="498" height="186" alt=""/>
+</div>
+
+<div id="Twit19" onclick="this.style.display='none';">
+	<img src="Images/twitter/twitter_osuhaters02.jpg" width="450" height="300" alt=""/>
+</div>
+
+<div id="Twit20" onclick="this.style.display='none';">
+	<img src="Images/twitter/tumblr_inline_n0ee5xmOvF1qawfnh.png" width="500" height="269" alt=""/>
+</div>
+
+<div id="Twit21" onclick="this.style.display='none';">
+	<img src="Images/twitter/Ted-Cruz-tweet.jpg" width="812" height="391" alt=""/>
+</div>
+
+<div id="Twit22" onclick="this.style.display='none';">
+	<img src="Images/twitter/Sparrow.JPG" width="553" height="353" alt=""/>
+</div>
+
+<div id="Twit23" onclick="this.style.display='none';">
+	<img src="Images/twitter/Screen_Shot_2015-01-13_at_10.08.55_AM.png" width="200" height="250" alt=""/>
+</div>
+
+<div id="Twit24" onclick="this.style.display='none';">
+	<img src="Images/twitter/Screen Shot 2016-01-26 at 6.34.50 PM.png" width="1160" height="200" alt=""/>
+</div>
+
+<div id="Twit25" onclick="this.style.display='none';">
+	<img src="Images/twitter/Screen Shot 2016-01-26 at 6.34.41 PM.png" width="1162" height="194" alt=""/>
+</div>
+
+<div id="Twit26" onclick="this.style.display='none';">
+	<img src="Images/twitter/Screen Shot 2016-01-26 at 6.34.23 PM.png" width="500" height="400" alt=""/>
+</div>
+
+<div id="Twit27" onclick="this.style.display='none';">
+	<img src="Images/Safe White Space/1507042_10204870507776908_6324715337228939484_n.jpg" width="540" height="960" alt=""/>
+</div>
+
+<div id="Twit28" onclick="this.style.display='none';">
+	<img src="Images/Safe White Space/3.jpg" width="613" height="177" alt=""/>
+</div>
+
+<div id="Twit29" onclick="this.style.display='none';">
+	<img src="Images/Safe White Space/A-guy-named-Brad-Schultz-made-racist-comments-on-a-Facebook-page-and-quickly-learned-the-error-of-his-ways-original-message.jpg" width="609" height="330" alt=""/>
+</div>
+
+<div id="Twit30" onclick="this.style.display='none';">
+	<img src="Images/Safe White Space/lucas-facebook-rant.jpg" width="900" height="342" alt=""/>
+</div>
+
+<div id="Safespace1" onclick="this.style.display='none';">
+	<img src="Images/White Privilege/CartoonWHITEMANSBURDEN.gif" width="400" height="474" alt=""/>
+</div>
+
+<div id="Safespace2" onclick="this.style.display='none';">
+	<img src="Images/White Privilege/racist-save-white-america.png" width="218" height="300" alt=""/>
+</div>
+
+<div id="Safespace3" onclick="this.style.display='none';">
+	<img src="Images/Safe White Space/in-my-safe-space.jpg" width="1200" height="600" alt=""/>
+</div>
+
+<div id="Safespace4" onclick="this.style.display='none';">
+	<img src="Images/Safe White Space/safe-space-cartoon-1.png" width="1200" height="650" alt=""/>
+</div>
+
+<div id="Safespace5" onclick="this.style.display='none';">
+	<img src="Images/Safe White Space/Slide1.jpg" width="720" height="540" alt=""/>
+</div>
+
+<div id="Safespace6" onclick="this.style.display='none';">
+	<img src="Images/Safe White Space/Stop-blaming-white-people.jpg" width="800" height="650" alt=""/>
+</div>
+
+<div id="Safespace7" onclick="this.style.display='none';">
+	<img src="Images/Safe White Space/politically-incorrect-area-Scott-Beale-Flickr-CC-348x180.jpg" width="700" height="400" alt=""/>
+</div>
+
+<div id="Safespace8" onclick="this.style.display='none';">
+	<img src="Images/Safe White Space/white-march.jpg" width="828" height="639" alt=""/>
+</div>
+
+<div id="Safespace9" onclick="this.style.display='none';">
+	<img src="Images/Safe White Space/maxresdefault.jpg" width="1600" height="1000" alt=""/>
+</div>
+
+<div id="Safespace10" onclick="this.style.display='none';">
+	<img src="Images/Safe White Space/WhiteStudentsUnion-400.jpg" width="800" height="600" alt=""/>
+</div>
+
+<div id="Safespace11" onclick="this.style.display='none';">
+	<img src="Images/Safe White Space/POLITICALLY-CORRECTX400.jpg" width="800" height="600" alt=""/>
+</div>
+
+<div id="Safespace12" onclick="this.style.display='none';">
+	<img src="Images/Safe White Space/danger-sign-safe-space_vn0mqx.jpg" width="393" height="302" alt=""/>
+</div>
+
+
+</body>
+</html>
